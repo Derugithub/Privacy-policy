@@ -48,21 +48,139 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
 <h1>Bloom Privacy Policy</h1>
 <p class="meta"><strong>App:</strong> Bloom</p>
 <p class="meta"><strong>Developer:</strong> Dereje G.</p>
-<p class="meta"><strong>Last updated: October 10, 2026</strong></p>
+<p class="meta"><strong>Last updated: October 28, 2026</strong></p>
 <p class="meta"><a href="../">All app privacy policies</a></p>
 </header>
-<p>This privacy policy explains what information the Bloom mobile app for iOS and Android (the "app") collects, how it is used, where it is stored, and the choices you have. In this policy, "we", "us" and "our" refer to the developer, Dereje G.</p>
-<nav class="toc" aria-label="Contents"><ol><li><a href="#s1">Overview</a></li><li><a href="#s2">Information we collect and how we use it</a></li><li><a href="#s3">Third-party services and SDKs</a></li><li><a href="#s4">Device permissions</a></li><li><a href="#s5">Data retention</a></li><li><a href="#s6">Data security</a></li><li><a href="#s7">Your rights and choices</a></li><li><a href="#s8">How to delete your data</a></li><li><a href="#s9">Children&#x27;s privacy</a></li><li><a href="#s10">Tracking and advertising</a></li><li><a href="#s11">Changes to this policy</a></li><li><a href="#s12">Contact us</a></li></ol></nav>
-<h2 id="s1">1. Overview</h2><p>Bloom is a habit tracker. You create habits, mark them done, and watch a garden-style calendar grow. Habits, completions and settings stay <strong>on your device</strong>. There is no account and no remote server, and we never receive your habit data.</p><div class="summary"><div class="yes"><h3>What we collect</h3><ul><li>Habits you create (title, description, schedule, reminder time, category, color), stored only on your device</li><li>Completion history (which habit on which date), stored only on your device</li><li>Appearance and notification settings, stored only on your device</li></ul></div><div class="no"><h3>What we don't do</h3><ul><li>No account or personal details</li><li>No upload of your habits to us or anyone else</li><li>No analytics, ads, crash reporting or tracking</li><li>No push notifications or push tokens</li><li>No selling or sharing of data</li></ul></div></div><h2 id="s2">2. Information we collect and how we use it</h2><div class="table-wrap"><table><thead><tr><th>Data type</th><th>Purpose</th><th>Where it is stored</th><th>Shared?</th></tr></thead><tbody><tr><td>Habits (title, description, frequency and days, optional reminder time, category, accent color, created date)</td><td>Shows and schedules your habits.</td><td>On your device only (AsyncStorage key <code>bloom-habit-store</code>).</td><td>No</td></tr><tr><td>Completion history (habit ID and date)</td><td>Calculates streaks, garden grids and stats.</td><td>On your device only.</td><td>No</td></tr><tr><td>Settings (appearance, notifications on/off)</td><td>Saves your preferences.</td><td>On your device only.</td><td>No</td></tr></tbody></table></div><p>A new install starts with four sample habits and sample history so you can see how the app works. You can delete them at any time.</p><h2 id="s3">3. Third-party services and SDKs</h2><p>The app is built with open-source libraries (Expo, React Native and related packages). These libraries run inside the app on your device. In the code of this version, none of them is configured to send your data to us or to any third party. The app contains no analytics, advertising, crash-reporting or tracking SDKs.</p><p>Reminders are <strong>local notifications</strong>. The app schedules them on your device. They are not push notifications. The app does not register a push token, and no server is involved.</p><p>Reminder notifications show the habit's title and description on your lock screen. Leave the description empty if you would rather not show it there.</p><h2 id="s4">4. Device permissions</h2><p>The app asks for a permission only when you use a feature that needs it. You can grant or revoke permissions at any time in your device settings. Denying a permission only disables the related feature.</p><div class="table-wrap"><table><thead><tr><th>Permission</th><th>Why it is needed</th></tr></thead><tbody><tr><td>Notifications (iOS notification permission; Android 13+ POST_NOTIFICATIONS)</td><td>Shows reminders at the times you set for your habits. The app may ask for this permission when it starts, because reminders are on by default. If you deny it, reminders turn off and everything else still works.</td></tr><tr><td>Vibration (Android, granted automatically, no prompt)</td><td>Plays short haptic feedback on supported devices.</td></tr></tbody></table></div><p>On Android, React Native apps include the standard <code>INTERNET</code> permission by default. This permission does not show a prompt. This app's code does not use it to send your data anywhere.</p><h2 id="s5">5. Data retention</h2><p>Your data stays on your device until you delete it in the app or uninstall the app. We keep no copies.</p><p>Your device's operating system may include Bloom's data in device backups that you control (for example, iCloud Backup on iOS or Google device backup on Android). Those backups are handled by Apple or Google under your account and their privacy policies (<a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>, <a href="https://policies.google.com/privacy">Google Privacy Policy</a>). We have no access to them.</p><h2 id="s6">6. Data security</h2><p>Your data stays in the app's private storage area on your device, which the operating system protects from other apps. Its protection also depends on your device's security, such as your screen lock and device encryption. We recommend you keep your device locked and up to date. Because the app does not send this data over the network, no data is sent in transit.</p><h2 id="s7">7. Your rights and choices</h2><p>Because Bloom keeps your data only on your device, you control it directly and we hold no copy of it. Depending on where you live, laws such as the EU/UK General Data Protection Regulation (GDPR) or the California Consumer Privacy Act (CCPA/CPRA) give you rights to access, correct, delete or port your personal data, to object to or restrict processing, and to withdraw consent. In this app:</p>
-<ul><li><strong>Access and correction:</strong> the data the app stores is shown in the app, and you can edit it wherever the app allows editing.</li>
-<li><strong>Deletion:</strong> delete single habits, or use Settings &rarr; <strong>Reset habit data</strong>. Uninstalling removes everything.</li>
-<li><strong>Withdrawing consent:</strong> you can revoke any device permission at any time in your device settings.</li>
-<li><strong>No sale or sharing:</strong> we do not sell your personal information or share it for cross-context behavioral advertising.</li></ul>
-<p>If you have a question about your rights, contact us at the address below. Because we receive no data from the app, we cannot look up or recover data stored on your device.</p><h2 id="s8">8. How to delete your data</h2><p>Bloom has no account, so there is no account to delete. To delete your data:</p>
-<ol class="steps"><li><strong>Delete one habit:</strong> open the habit's edit form and delete it. Its history is also removed.</li>
-<li><strong>Delete all habits and history:</strong> open the <strong>Settings</strong> tab &rarr; <strong>Reset data</strong> &rarr; confirm <strong>Reset</strong>. Your appearance and notification settings are kept.</li>
-<li><strong>Remove everything:</strong> uninstall Bloom. On Android you can also use <em>Settings &rarr; Apps &rarr; Bloom &rarr; Storage &rarr; Clear storage</em>.</li></ol><h2 id="s9">9. Children&#x27;s privacy</h2><p>Bloom is a general-audience app. It is not directed at children under 13, and we do not knowingly collect personal information from children under 13 (or under the age of digital consent where you live). If you believe a child has provided personal information through the app, contact us and we will help remove it.</p><h2 id="s10">10. Tracking and advertising</h2><p>Bloom does <strong>not</strong> track you. As Apple's App Tracking Transparency framework defines it, tracking means linking data collected in this app with data from other companies' apps, websites or offline properties for targeted advertising or advertising measurement, or sharing it with data brokers. Bloom does none of that. It shows no ads, contains no advertising identifiers or analytics SDKs, and does not ask for tracking permission. </p><h2 id="s11">11. Changes to this policy</h2><p>We may update this privacy policy when the app changes or when the law requires it. We will post the updated policy on this page and change the "Last updated" date above. If a change materially affects how we handle your personal data, we will give notice in the app or by other reasonable means before it takes effect. Please review this page from time to time.</p><h2 id="s12">12. Contact us</h2><div class="contact"><p>If you have questions about this privacy policy, want to exercise your privacy rights, contact the developer:</p><p><strong>Developer:</strong> Dereje G.<br><strong>App:</strong> Bloom<br><strong>Support / Contact Email: [MY_SUPPORT_EMAIL]</strong></p><p>We aim to respond within 30 days.</p></div>
-<footer><p>&copy; 2026 Dereje G. Bloom Privacy Policy. Last updated: October 10, 2026.</p></footer>
+<p>This privacy policy explains what information the Bloom mobile app for Android (the "app") collects, how it is used, where it is stored, and the choices you have. In this policy, "we", "us" and "our" refer to the developer, Dereje G.</p>
+<nav class="toc" aria-label="Contents"><ol>
+<li><a href="#s1">Overview</a></li>
+<li><a href="#s2">Information we collect and how we use it</a></li>
+<li><a href="#s3">Third-party services and SDKs</a></li>
+<li><a href="#s4">Device permissions</a></li>
+<li><a href="#s5">Data retention</a></li>
+<li><a href="#s6">Data security</a></li>
+<li><a href="#s7">Your rights and choices</a></li>
+<li><a href="#s8">How to delete your data</a></li>
+<li><a href="#s9">Children&#x27;s privacy</a></li>
+<li><a href="#s10">Tracking and advertising</a></li>
+<li><a href="#s11">Changes to this policy</a></li>
+<li><a href="#s12">Contact us</a></li>
+</ol></nav>
+
+<h2 id="s1">1. Overview</h2>
+<p>Bloom is a habit tracker. You create habits, mark them done, and watch a garden-style calendar grow. Your habits, completion history and settings stay <strong>on your device</strong>. There is no account, no custom backend and no cloud sync, and we never receive your habit data.</p>
+<p>The app is free and shows ads through Google AdMob (Google Mobile Ads SDK): one banner at the bottom of the Today screen. In the EEA, UK and Switzerland, the app asks for consent on first launch through Google&#x27;s consent form (User Messaging Platform). Ads are requested only after that consent allows ad requests. Personalized ads are used only if you consent; if you decline, ads are limited or non-personalized. Outside those regions, ads follow Google&#x27;s default settings for that region, and the consent form may not be shown. If the device is offline at launch, the app uses the previously saved consent choice. Ads may use the advertising ID, device info and approximate location, depending on consent. Your habits, completions, categories, reminder times and settings are never sent to the ad network.</p>
+<p>App identifier: Android package <code>com.deredo.bloom</code>.</p>
+
+<div class="summary">
+<div class="yes">
+<h3>What we collect</h3>
+<ul>
+<li>Habits you create (title, description, schedule, optional reminder time, category, color), custom categories, completion history, and appearance and reminder settings, stored only on your device</li>
+<li>Small on-device flags and counters (whether you have seen the intro, and counters that decide when the app may ask for a Google Play review)</li>
+<li>Google AdMob (Google Mobile Ads SDK) may use the advertising ID, device info and approximate location, depending on consent, along with app interaction and ad performance data and your consent status</li>
+</ul>
+</div>
+<div class="no">
+<h3>What we don&#x27;t do</h3>
+<ul>
+<li>No account, and no personal profile data collected by the app itself</li>
+<li>No sending of your habits, history, categories, reminders or settings to us or to the ad network</li>
+<li>No analytics or crash-reporting SDK of our own</li>
+<li>No push notifications or push tokens (reminders are local to your device)</li>
+<li>No purchases or subscriptions, and no selling of your data</li>
+<li>No camera, microphone, photos, contacts or location permission from the app itself</li>
+</ul>
+</div>
+</div>
+
+<h2 id="s2">2. Information we collect and how we use it</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>Data type</th><th>Purpose</th><th>Where it is stored</th><th>Shared?</th></tr></thead>
+<tbody>
+<tr><td>Habits (title, description, frequency and days, optional reminder time, category, accent color, icon, created date)</td><td>Shows and schedules your habits.</td><td>On your device only (AsyncStorage key <code>bloom-habit-store</code>).</td><td>No</td></tr>
+<tr><td>Custom categories you create</td><td>Lets you group habits your way.</td><td>On your device only, in the app on your device. They are never sent anywhere.</td><td>No</td></tr>
+<tr><td>Completion history (habit ID and date)</td><td>Calculates streaks, garden grids and stats.</td><td>On your device only (<code>bloom-habit-store</code>).</td><td>No</td></tr>
+<tr><td>Settings (appearance, reminders on/off)</td><td>Remembers your preferences.</td><td>On your device only (<code>bloom-habit-store</code>).</td><td>No</td></tr>
+<tr><td>Intro flag</td><td>Remembers that you have seen the first-run intro.</td><td>On your device only (<code>bloom.intro.v1</code>).</td><td>No</td></tr>
+<tr><td>Review counters (number of sessions, number of completed habits, number and time of review prompts)</td><td>Decides when the app may ask for a Google Play review, and not too often.</td><td>On your device only (<code>bloom.review.v1</code>).</td><td>No</td></tr>
+<tr><td>Scheduled reminders (habit title and description, time and weekdays)</td><td>Lets Android show your habit reminders at the times you set.</td><td>Scheduled on your device by Android. Not sent anywhere.</td><td>No</td></tr>
+<tr><td>Advertising ID, IP address (used for approximate location), app interaction and ad performance data (ad views and taps), device and diagnostic information, consent status</td><td>Collected by the Google Mobile Ads SDK to deliver and measure ads, limit how often ads appear, and prevent fraud, subject to your consent choices. In the EEA, UK and Switzerland, personalized ads are used only if you consent; if you decline, ads are limited or non-personalized. Outside those regions, ads follow Google&#x27;s default settings for that region.</td><td>Held by Google under Google&#x27;s terms.</td><td>Yes, collected by Google (see section 3)</td></tr>
+</tbody>
+</table></div>
+
+<h2 id="s3">3. Third-party services and SDKs</h2>
+<p>The app is built with open-source libraries (Expo, React Native and related packages such as <code>expo-notifications</code>, <code>expo-haptics</code>, <code>expo-store-review</code>, <code>expo-router</code> and <code>@react-native-async-storage/async-storage</code>). These libraries run inside the app on your device and are not configured to send your habit or settings data to us. The one third-party service that receives data is Google&#x27;s advertising SDK.</p>
+<p><strong>Google AdMob and the User Messaging Platform (UMP):</strong> the app shows ads through Google AdMob using the Google Mobile Ads SDK (<code>react-native-google-mobile-ads</code>). The only ad is a banner at the bottom of the Today screen. It appears only after consent allows ad requests, and it is hidden if an ad fails to load.</p>
+<p>The SDK&#x27;s measurement start-up is delayed until the app initializes it. In the EEA, UK and Switzerland, Google&#x27;s UMP SDK asks for consent on first launch through Google&#x27;s consent form. Ads are requested only after that consent allows ad requests. Personalized ads are used only if you consent; if you decline, ads are limited or non-personalized. Outside those regions, ads follow Google&#x27;s default settings for that region, and the consent form may not be shown. If the device is offline at launch, the app uses the previously saved consent choice. The app does not pass your habits, history, categories, reminders or settings to Google, and it does not collect an account, purchases or personal profile data of its own.</p>
+<p>When it serves ads, and depending on consent, Google may use the advertising ID (the Android advertising ID and app set ID), device info (such as device model, operating system and SDK performance) and approximate location derived from your IP address, along with app interaction and ad performance data (such as ad impressions and taps) and your consent status. Google uses this data to deliver and measure ads, cap how often ads appear, and detect fraud. Learn more in <a href="https://policies.google.com/technologies/ads">How Google uses data in advertising</a>, <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<p><strong>In-app review and Rate us:</strong> after you complete habits, at a natural pause, the app may ask you to rate it using Google Play&#x27;s in-app review API (Google Play services). That flow is handled by Google Play under Google&#x27;s terms; the app does not send your habit data with that request. The <strong>Rate Bloom</strong> row in Settings opens Bloom&#x27;s Google Play listing in the Play Store app or your browser, where the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> applies.</p>
+<p><strong>Reminders:</strong> reminders are <strong>local notifications</strong>. The app schedules them on your device through the Expo notifications library and Android&#x27;s notification system. They are not push notifications. The app does not register a push token, and no server is involved. Reminder notifications show the habit&#x27;s title and description on your lock screen. Leave the description empty if you would rather not show it there.</p>
+<p><strong>Haptics:</strong> short vibration feedback is produced on your device by the Expo haptics library and Android. It involves no data collection.</p>
+<p>Apart from ad, consent and store-review network use, the app is designed to work fully offline.</p>
+
+<h2 id="s4">4. Device permissions</h2>
+<p>The app asks for a permission only when you use a feature that needs it. You can grant or revoke permissions at any time in your device settings. Denying a permission only disables the related feature. Bloom does not ask for camera, microphone, photos, contacts or location permissions, and its configuration blocks the overlay and external storage permissions.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Permission</th><th>Why it is needed</th></tr></thead>
+<tbody>
+<tr><td>Notifications (Android 13+ <code>POST_NOTIFICATIONS</code>)</td><td>Shows habit reminders at the times you set. Reminders are off by default. Android asks for this permission when you turn reminders on in Settings. If you deny it, reminders stay off and everything else still works.</td></tr>
+<tr><td>Run at startup (<code>RECEIVE_BOOT_COMPLETED</code>, Android, automatic)</td><td>Lets Android restore your scheduled reminders after the device restarts.</td></tr>
+<tr><td>Internet and network state (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>, Android, automatic)</td><td>Loading ads and the consent form, and opening the Google Play listing when you tap Rate Bloom.</td></tr>
+<tr><td>Wake lock (<code>WAKE_LOCK</code>, Android, automatic)</td><td>Used by the Google Mobile Ads SDK and notification components to complete short background tasks.</td></tr>
+<tr><td>Advertising ID (Android, <code>com.google.android.gms.permission.AD_ID</code>, automatic)</td><td>Lets the Google Mobile Ads SDK read the advertising ID for ad delivery, frequency capping, measurement and fraud prevention. You can reset or delete it in Android settings.</td></tr>
+<tr><td>Vibration (Android, automatic)</td><td>Short haptic feedback when you complete or select things, and when a reminder arrives.</td></tr>
+</tbody>
+</table></div>
+
+<h2 id="s5">5. Data retention</h2>
+<p>Your habits, history, categories and settings stay on your device until you delete them in the app, clear the app&#x27;s data or uninstall the app. We keep no copies.</p>
+<p>Data collected by Google through the ads SDK is held by Google and retained under Google&#x27;s own terms and policies (see the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>). We do not receive it in a form that identifies you and cannot delete it for you.</p>
+<p>Your device&#x27;s operating system may include Bloom&#x27;s data in device backups that you control (for example, Google device backup on Android). Those backups are handled by Google under your account and its privacy policy. We have no access to them.</p>
+
+<h2 id="s6">6. Data security</h2>
+<p>Your data stays in the app&#x27;s private storage area on your device, which the operating system protects from other apps. Its protection also depends on your device&#x27;s security, such as your screen lock and device encryption. We recommend you keep your device locked and up to date. Your habits and settings are never sent over the network by the app. Google states that data collected by its ads SDK is encrypted in transit.</p>
+
+<h2 id="s7">7. Your rights and choices</h2>
+<p>Because Bloom keeps your habit data only on your device, you control it directly and we hold no copy of it. Depending on where you live, laws such as the EU/UK General Data Protection Regulation (GDPR) or the California Consumer Privacy Act (CCPA/CPRA) give you rights to access, correct, delete or port your personal data, to object to or restrict processing, and to withdraw consent. In this app:</p>
+<ul>
+<li><strong>Access and correction:</strong> the data the app stores is shown in the app, and you can edit it wherever the app allows editing.</li>
+<li><strong>Deletion:</strong> delete single habits, use Settings &rarr; <strong>Reset data</strong>, clear the app&#x27;s data or uninstall the app (see section 8).</li>
+<li><strong>Ad consent:</strong> in the EEA, UK and Switzerland, Google&#x27;s consent form is shown on first launch. Personalized ads are used only if you consent; if you decline, ads are limited or non-personalized. You can change or withdraw your consent at any time in <strong>Settings &rarr; Privacy options</strong> (where that entry is shown). You can also uninstall the app, or reset the advertising ID in Android <em>Settings &rarr; Google &rarr; Ads</em>.</li>
+<li><strong>Advertising ID:</strong> on Android, go to <em>Settings &rarr; Privacy &rarr; Ads</em> (or <em>Settings &rarr; Google &rarr; Ads</em>) to reset or delete your advertising ID.</li>
+<li><strong>Reminders and permissions:</strong> turn reminders off in Settings, or revoke the notification permission in your device settings, at any time.</li>
+<li><strong>No sale:</strong> we do not sell your personal information.</li>
+</ul>
+<p>If you have a question about your rights, contact us at the address below. Because we receive no habit data from the app, we cannot look up or recover data stored on your device. For data held by Google, see <a href="https://policies.google.com/privacy">Google&#x27;s privacy controls</a>.</p>
+
+<h2 id="s8">8. How to delete your data</h2>
+<p>Bloom has no account, so there is no account to delete. To delete your data:</p>
+<ol class="steps">
+<li><strong>Delete one habit:</strong> open the habit and delete it. Its history is also removed.</li>
+<li><strong>Delete all habits and history:</strong> open the <strong>Settings</strong> tab &rarr; <strong>Reset data</strong> &rarr; confirm <strong>Reset</strong>. This removes every habit and its history. Your appearance and reminder settings are kept.</li>
+<li><strong>Clear everything:</strong> on Android, open <em>Settings &rarr; Apps &rarr; Bloom &rarr; Storage &rarr; Clear storage</em>. This deletes all of Bloom&#x27;s data, including settings, while keeping the app installed.</li>
+<li><strong>Uninstall:</strong> uninstall Bloom to remove the app and its data from the device.</li>
+<li><strong>Ad data:</strong> reset or delete your advertising ID as described in section 7. Data already collected by Google is handled under Google&#x27;s terms.</li>
+</ol>
+
+<h2 id="s9">9. Children&#x27;s privacy</h2>
+<p>Bloom is not directed at children under 13 (or under the age of digital consent where you live), and we do not knowingly collect personal information from them. The app shows ads and is not part of any family or children&#x27;s program. If you believe a child has provided personal information through the app, contact us and we will help remove it.</p>
+
+<h2 id="s10">10. Tracking and advertising</h2>
+<p>Bloom shows ads through Google AdMob (Google Mobile Ads SDK). In the EEA, UK and Switzerland, the app asks for consent on first launch through Google&#x27;s consent form. Ads are requested only after that consent allows ad requests. Personalized ads are used only if you consent; if you decline, ads are limited or non-personalized. Outside those regions, ads follow Google&#x27;s default settings for that region, and the consent form may not be shown. If the device is offline at launch, the app uses the previously saved consent choice. Ads may use the advertising ID, device info and approximate location, depending on consent. Tracking here means linking data collected in this app with data from other companies&#x27; apps, websites or offline properties for targeted advertising or advertising measurement, or sharing it with data brokers. The app does not implement its own cross-app tracking, and it collects no account, no purchases and no personal profile data of its own. You can change or withdraw consent in <strong>Settings &rarr; Privacy options</strong> where that entry is shown. Even when ads are limited by consent or device settings, Google may still access the advertising ID (where your device settings allow it), device info, approximate location from your IP address and the other data listed in section 3 for ad delivery, frequency capping, aggregated measurement and fraud prevention. Your habits, history, categories, reminders and settings are never shared with Google or any ad network. See <a href="https://policies.google.com/technologies/ads">how Google uses data in advertising</a>.</p>
+
+<h2 id="s11">11. Changes to this policy</h2>
+<p>We may update this privacy policy when the app changes or when the law requires it. We will post the updated policy on this page and change the &quot;Last updated&quot; date above. If a change materially affects how we handle your personal data, we will give notice in the app or by other reasonable means before it takes effect. Please review this page from time to time.</p>
+
+<h2 id="s12">12. Contact us</h2>
+<div class="contact">
+<p>If you have questions about this privacy policy, want to exercise your privacy rights, contact the developer:</p>
+<p><strong>Developer:</strong> Dereje G.<br>
+<strong>App:</strong> Bloom<br>
+<strong>Support / Contact Email: <a href="mailto:movadmob@gmail.com">movadmob@gmail.com</a></strong></p>
+<p>We aim to respond within 30 days.</p>
+</div>
+<footer><p>&copy; 2026 Dereje G. Bloom Privacy Policy. Last updated: October 28, 2026.</p></footer>
 </main>
 </body>
 </html>
