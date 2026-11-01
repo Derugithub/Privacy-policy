@@ -48,22 +48,89 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
 <h1>NoirList Privacy Policy</h1>
 <p class="meta"><strong>App:</strong> NoirList</p>
 <p class="meta"><strong>Developer:</strong> Dereje G.</p>
-<p class="meta"><strong>Last updated: October 10, 2026</strong></p>
+<p class="meta"><strong>Last updated: November 1, 2026</strong></p>
 <p class="meta"><a href="../">All app privacy policies</a></p>
 </header>
-<p>This privacy policy explains what information the NoirList mobile app for iOS and Android (the "app") collects, how it is used, where it is stored, and the choices you have. In this policy, "we", "us" and "our" refer to the developer, Dereje G.</p>
-<nav class="toc" aria-label="Contents"><ol><li><a href="#s1">Overview</a></li><li><a href="#s2">Information we collect and how we use it</a></li><li><a href="#s3">Third-party services and SDKs</a></li><li><a href="#s4">Device permissions</a></li><li><a href="#s5">Data retention</a></li><li><a href="#s6">Data security</a></li><li><a href="#s7">Your rights and choices</a></li><li><a href="#s8">How to delete your data</a></li><li><a href="#s9">Children&#x27;s privacy</a></li><li><a href="#s10">Tracking and advertising</a></li><li><a href="#s11">Changes to this policy</a></li><li><a href="#s12">Contact us</a></li></ol></nav>
-<h2 id="s1">1. Overview</h2><p>NoirList is a single-screen task list. Tasks you add are stored <strong>on your device</strong> only. The app has no account, no server and no network code, and we never receive your tasks.</p>
-<p>App identifier: Android package <code>com.deredo.todoapp</code>.</p><div class="summary"><div class="yes"><h3>What we collect</h3><ul><li>Tasks you type (text, done/open status, created time), stored only on your device</li><li>Your "add to top/bottom" preference, stored only on your device</li></ul></div><div class="no"><h3>What we don't do</h3><ul><li>No account or personal details</li><li>No network requests in the app's code</li><li>No analytics, ads, crash reporting or tracking</li><li>No device permissions requested</li><li>No selling or sharing of data</li></ul></div></div><h2 id="s2">2. Information we collect and how we use it</h2><div class="table-wrap"><table><thead><tr><th>Data type</th><th>Purpose</th><th>Where it is stored</th><th>Shared?</th></tr></thead><tbody><tr><td>Tasks (text, done status, created time)</td><td>Shows your list and keeps it between launches.</td><td>On your device only (AsyncStorage key <code>noir-list.todos.v1</code>).</td><td>No</td></tr><tr><td>Insert-position preference (top or bottom)</td><td>Remembers where new tasks are added.</td><td>On your device only (<code>noir-list.insert-edge.v1</code>).</td><td>No</td></tr></tbody></table></div><h2 id="s3">3. Third-party services and SDKs</h2><p>The app is built with open-source libraries (Expo, React Native and related packages). These libraries run inside the app on your device. In the code of this version, none of them is configured to send your data to us or to any third party. The app contains no analytics, advertising, crash-reporting or tracking SDKs.</p><h2 id="s4">4. Device permissions</h2><p>NoirList does not request any device permissions.</p><p>On Android, React Native apps include the standard <code>INTERNET</code> permission by default. This permission does not show a prompt. This app's code does not use it to send your data anywhere.</p><h2 id="s5">5. Data retention</h2><p>Tasks stay on your device until you delete them or uninstall the app.</p><p>Your device's operating system may include NoirList's data in device backups that you control (for example, iCloud Backup on iOS or Google device backup on Android). Those backups are handled by Apple or Google under your account and their privacy policies (<a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>, <a href="https://policies.google.com/privacy">Google Privacy Policy</a>). We have no access to them.</p><h2 id="s6">6. Data security</h2><p>Your data stays in the app's private storage area on your device, which the operating system protects from other apps. Its protection also depends on your device's security, such as your screen lock and device encryption. We recommend you keep your device locked and up to date. Because the app does not send this data over the network, no data is sent in transit.</p><h2 id="s7">7. Your rights and choices</h2><p>Because NoirList keeps your data only on your device, you control it directly and we hold no copy of it. Depending on where you live, laws such as the EU/UK General Data Protection Regulation (GDPR) or the California Consumer Privacy Act (CCPA/CPRA) give you rights to access, correct, delete or port your personal data, to object to or restrict processing, and to withdraw consent. In this app:</p>
-<ul><li><strong>Access and correction:</strong> the data the app stores is shown in the app, and you can edit it wherever the app allows editing.</li>
-<li><strong>Deletion:</strong> delete a task with its &times; button, use <strong>Clear done</strong>, or uninstall the app.</li>
-<li><strong>Withdrawing consent:</strong> you can revoke any device permission at any time in your device settings.</li>
-<li><strong>No sale or sharing:</strong> we do not sell your personal information or share it for cross-context behavioral advertising.</li></ul>
-<p>If you have a question about your rights, contact us at the address below. Because we receive no data from the app, we cannot look up or recover data stored on your device.</p><h2 id="s8">8. How to delete your data</h2><p>NoirList has no account, so there is no account to delete. To delete your data:</p>
-<ol class="steps"><li><strong>Delete one task:</strong> tap the <strong>&times;</strong> next to it.</li>
+<p>This privacy policy explains what information the NoirList mobile app for Android (the "app") collects, how it is used, where it is stored, and the choices you have. In this policy, "we", "us" and "our" refer to the developer, Dereje G.</p>
+<nav class="toc" aria-label="Contents"><ol><li><a href="#s1">Overview</a></li><li><a href="#s2">Information we collect and how we use it</a></li><li><a href="#s3">Advertising (Google AdMob)</a></li><li><a href="#s4">Third-party services and SDKs</a></li><li><a href="#s5">Device permissions</a></li><li><a href="#s6">Data retention</a></li><li><a href="#s7">Data security</a></li><li><a href="#s8">Your rights and choices</a></li><li><a href="#s9">How to delete your data</a></li><li><a href="#s10">Children&#x27;s privacy</a></li><li><a href="#s11">Changes to this policy</a></li><li><a href="#s12">Contact us</a></li></ol></nav>
+<h2 id="s1">1. Overview</h2>
+<p>NoirList is a task list. Your tasks, categories and settings are stored <strong>on your device</strong> only. The app has no account and no server of its own, and we never receive your tasks.</p>
+<p>The app is free and shows ads through <strong>Google AdMob</strong>. To show ads, the Google Mobile Ads SDK in the app collects some device and usage data and sends it to Google, as described in section 3. Users in the European Economic Area (EEA), the UK and Switzerland are asked for consent first through Google's consent message.</p>
+<p>App identifier: Android package <code>com.deredo.NoirList</code>.</p>
+<div class="summary">
+<div class="yes"><h3>What is collected</h3><ul>
+<li>Tasks, categories and settings you create, stored only on your device</li>
+<li>For ads (collected by Google, not by us): advertising ID, IP address, device and app information, and ad interaction data</li>
+<li>Your ad consent choice, stored on your device by Google's consent SDK</li>
+</ul></div>
+<div class="no"><h3>What we don't do</h3><ul>
+<li>No account or personal details such as name or email</li>
+<li>We never receive or upload your tasks</li>
+<li>No analytics or crash-reporting SDKs</li>
+<li>No location, contacts, camera, microphone or storage permissions</li>
+<li>No selling of your tasks or personal data by us</li>
+</ul></div>
+</div>
+<h2 id="s2">2. Information we collect and how we use it</h2>
+<div class="table-wrap"><table><thead><tr><th>Data type</th><th>Purpose</th><th>Where it is stored</th><th>Shared?</th></tr></thead><tbody>
+<tr><td>Tasks (text, done status, created time, category)</td><td>Shows your list and keeps it between launches.</td><td>On your device only (AsyncStorage key <code>noir-list.todos.v1</code>).</td><td>No</td></tr>
+<tr><td>Categories you create</td><td>Groups and filters your tasks.</td><td>On your device only (<code>noir-list.categories.v1</code>).</td><td>No</td></tr>
+<tr><td>Preferences: theme (light/dark/system) and add-to-top/bottom</td><td>Remembers your settings.</td><td>On your device only (<code>noir-list.theme.v1</code>, <code>noir-list.insert-edge.v1</code>).</td><td>No</td></tr>
+<tr><td>Advertising ID, IP address, device and app information (such as device model, OS version, language, app version), and ad interaction data (ads shown and tapped)</td><td>Showing ads, measuring them, limiting frequency, and preventing ad fraud. Ads may be personalized only where you allow it.</td><td>Collected by the Google Mobile Ads SDK and processed by Google.</td><td>Yes, with Google (AdMob) for advertising</td></tr>
+<tr><td>Ad consent choice (EEA/UK/Switzerland)</td><td>Remembers whether you agreed to personalized ads, so you are not asked every time.</td><td>On your device, stored by Google's User Messaging Platform (UMP) SDK.</td><td>Read by the Google Mobile Ads SDK</td></tr>
+</tbody></table></div>
+<h2 id="s3">3. Advertising (Google AdMob)</h2>
+<p>NoirList shows a banner ad at the bottom of the task list, served by Google AdMob. The Google Mobile Ads SDK may collect and share the data listed above with Google, and Google may use it to provide, personalize and measure ads and to prevent fraud. Data is encrypted in transit. Google's handling of this data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a> and <a href="https://policies.google.com/technologies/ads">How Google uses advertising</a>.</p>
+<ul>
+<li><strong>EEA, UK and Switzerland:</strong> on first launch the app shows Google's consent message. Ads load only after the consent SDK allows it. You can change your choice at any time in <strong>Settings &rarr; Privacy options</strong> in the app (this button appears where the consent rules apply).</li>
+<li><strong>Everywhere:</strong> you can reset or delete your advertising ID, or opt out of personalized ads, in your Android settings (<em>Settings &rarr; Google &rarr; Ads</em>, or <em>Settings &rarr; Privacy &rarr; Ads</em>, depending on your device). You may still see ads, but they will be less relevant to you.</li>
+</ul>
+<h2 id="s4">4. Third-party services and SDKs</h2>
+<div class="table-wrap"><table><thead><tr><th>Service</th><th>What it does</th><th>Data it receives</th><th>Privacy policy</th></tr></thead><tbody>
+<tr><td>Google AdMob (Google Mobile Ads SDK), Google LLC</td><td>Shows banner ads.</td><td>Advertising ID, IP address, device and app information, ad interaction data.</td><td><a href="https://policies.google.com/privacy">Google Privacy Policy</a></td></tr>
+<tr><td>Google User Messaging Platform (UMP), Google LLC</td><td>Asks for and stores ad consent where required.</td><td>Your consent choice and the information needed to show the message (such as region based on IP address).</td><td><a href="https://policies.google.com/privacy">Google Privacy Policy</a></td></tr>
+</tbody></table></div>
+<p>The app is otherwise built with open-source libraries (Expo, React Native and related packages) that run on your device and do not send your data to us or to third parties. The app contains no analytics or crash-reporting SDKs.</p>
+<h2 id="s5">5. Device permissions</h2>
+<p>NoirList does not ask you for any permission with a prompt. The app's Android manifest includes these permissions, which are granted automatically:</p>
+<div class="table-wrap"><table><thead><tr><th>Permission</th><th>Why it is needed</th></tr></thead><tbody>
+<tr><td><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code></td><td>Loading ads and the consent message.</td></tr>
+<tr><td><code>com.google.android.gms.permission.AD_ID</code></td><td>Lets the Google Mobile Ads SDK read the advertising ID for ads, subject to your Android ad settings.</td></tr>
+</tbody></table></div>
+<h2 id="s6">6. Data retention</h2>
+<p>Tasks, categories and settings stay on your device until you delete them or uninstall the app. Data collected by Google for advertising is kept according to the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<p>Your device's operating system may include NoirList's data in Android device backups that you control. Those backups are handled by Google under your account and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<h2 id="s7">7. Data security</h2>
+<p>Your tasks stay in the app's private storage area on your device, which Android protects from other apps. Their protection also depends on your device's security, such as your screen lock and encryption. Your tasks are never sent over the network. Data that the ads SDK sends to Google is encrypted in transit.</p>
+<h2 id="s8">8. Your rights and choices</h2>
+<p>Depending on where you live, laws such as the EU/UK General Data Protection Regulation (GDPR) or the California Consumer Privacy Act (CCPA/CPRA) give you rights to access, correct, delete or port your personal data, to object to or restrict processing, and to withdraw consent. In this app:</p>
+<ul>
+<li><strong>Your tasks:</strong> they are shown in the app and you can edit or delete them at any time. We hold no copy.</li>
+<li><strong>Ad consent:</strong> change it in <strong>Settings &rarr; Privacy options</strong> (where shown) or limit ad personalization in your Android settings.</li>
+<li><strong>Advertising data held by Google:</strong> manage it through your Google account and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+<li><strong>Legal basis (EEA/UK):</strong> on-device storage of your tasks is needed to provide the app. Personalized advertising is based on your consent, which you can withdraw at any time.</li>
+<li><strong>Sale or sharing:</strong> we do not sell your tasks or personal information. Under some US state laws, sharing device data with Google for ads may count as "sharing" for targeted advertising; you can opt out by turning off ad personalization in your Android settings.</li>
+</ul>
+<p>Because we receive no data from the app ourselves, we cannot look up or recover data stored on your device.</p>
+<h2 id="s9">9. How to delete your data</h2>
+<p>NoirList has no account, so there is no account to delete. To delete your data:</p>
+<ol class="steps">
+<li><strong>Delete one task:</strong> tap the <strong>&times;</strong> next to it.</li>
 <li><strong>Delete finished tasks:</strong> tap <strong>Clear done</strong> &rarr; confirm <strong>Clear</strong>.</li>
-<li><strong>Remove everything:</strong> uninstall NoirList. On Android you can also use <em>Settings &rarr; Apps &rarr; NoirList &rarr; Storage &rarr; Clear storage</em>.</li></ol><h2 id="s9">9. Children&#x27;s privacy</h2><p>NoirList is a general-audience app. It is not directed at children under 13, and we do not knowingly collect personal information from children under 13 (or under the age of digital consent where you live). If you believe a child has provided personal information through the app, contact us and we will help remove it.</p><h2 id="s10">10. Tracking and advertising</h2><p>NoirList does <strong>not</strong> track you. As Apple's App Tracking Transparency framework defines it, tracking means linking data collected in this app with data from other companies' apps, websites or offline properties for targeted advertising or advertising measurement, or sharing it with data brokers. NoirList does none of that. It shows no ads, contains no advertising identifiers or analytics SDKs, and does not ask for tracking permission. </p><h2 id="s11">11. Changes to this policy</h2><p>We may update this privacy policy when the app changes or when the law requires it. We will post the updated policy on this page and change the "Last updated" date above. If a change materially affects how we handle your personal data, we will give notice in the app or by other reasonable means before it takes effect. Please review this page from time to time.</p><h2 id="s12">12. Contact us</h2><div class="contact"><p>If you have questions about this privacy policy, want to exercise your privacy rights, contact the developer:</p><p><strong>Developer:</strong> Dereje G.<br><strong>App:</strong> NoirList<br><strong>Support / Contact Email: [MY_SUPPORT_EMAIL]</strong></p><p>We aim to respond within 30 days.</p></div>
-<footer><p>&copy; 2026 Dereje G. NoirList Privacy Policy. Last updated: October 10, 2026.</p></footer>
+<li><strong>Remove everything:</strong> uninstall NoirList, or use <em>Settings &rarr; Apps &rarr; NoirList &rarr; Storage &rarr; Clear storage</em>. This also removes your saved ad consent choice.</li>
+<li><strong>Advertising ID:</strong> reset or delete it in your Android ad settings.</li>
+</ol>
+<h2 id="s10">10. Children&#x27;s privacy</h2>
+<p>NoirList is a general-audience app. It is not directed at children under 13, and we do not knowingly collect personal information from children under 13 (or under the age of digital consent where you live). If you believe a child has used the app and their data was collected for advertising, contact us and we will help.</p>
+<h2 id="s11">11. Changes to this policy</h2>
+<p>We may update this privacy policy when the app changes or when the law requires it. We will post the updated policy on this page and change the "Last updated" date above. If a change materially affects how personal data is handled, we will give notice in the app or by other reasonable means before it takes effect. Please review this page from time to time.</p>
+<h2 id="s12">12. Contact us</h2>
+<div class="contact">
+<p>If you have questions about this privacy policy or want to exercise your privacy rights, contact the developer:</p>
+<p><strong>Developer:</strong> Dereje G.<br><strong>App:</strong> NoirList<br><strong>Support / Contact Email:</strong> <a href="mailto:movadmob@gmail.com">movadmob@gmail.com</a></p>
+<p>We aim to respond within 30 days.</p>
+</div>
+<footer><p>&copy; 2026 Dereje G. NoirList Privacy Policy. Last updated: November 1, 2026.</p></footer>
 </main>
 </body>
 </html>
