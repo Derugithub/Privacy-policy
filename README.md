@@ -1,6 +1,6 @@
 # Privacy policies (static site)
 
-Static, self-contained HTML privacy policies for 9 mobile apps by Dereje G., plus a landing page.
+Static, self-contained HTML privacy policies for 9 mobile apps by Movad, plus a landing page.
 This folder is ready to publish (for example with GitHub Pages using the `docs/` folder).
 
 ## Structure
